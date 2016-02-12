@@ -1,10 +1,10 @@
 /*************************************************************************
 **                                                                      **
-**        LL3. El primer programa                                       **
-**        En aquest lliurament utilitzarem el programa "Blink"          **
-**        que fa encendre o apagar un LED de l'Arduino cada 1 segon     **
-**        Cambiant el delay cambiarem el temps que fa pampallugues el   **                         
-**        LED  (s'ha d'expressar en ms).                                **
+**        Serial                                                        **
+**        Projecte 1.3 "Hello World!"                                   **
+**        En aquest projecte hem escrit per pantalla moltes vegades     **
+**        i fent salts de línia la frase "Hello World"                  **                         
+**                                                                      **
 **                                                                      **
 *************************************************************************/
 
