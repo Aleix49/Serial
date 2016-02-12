@@ -1,7 +1,7 @@
 /*************************************************************************
 **                                                                      **
 **        Serial                                                        **
-**        Projecte 2.2 Math is fun                                      **
+**        Projecte 5 Number Comunication                                **
 **        Farem un projecte que calculi la hipotenusa                   **
 **        amb els dos costats de 3 i 4 i calcula                        **                       
 **        l'hipotenusa.                                                 **
@@ -13,7 +13,7 @@
 
 //******  Variables  *****************************************************
 
-float costatSerie, costatParalel, h;     // Variable pels costats
+float costatSerie, costatParalel;     // Variable pels costats
 float hipotenusa;                        // Variable pel resultat
 
 //******  Setup  *********************************************************
@@ -23,7 +23,7 @@ float hipotenusa;                        // Variable pel resultat
 
 void setup() {
   
-   Serial.begin(9600);        // Inicialitza 
+   Serial.begin(9600);        // Inicialitza la llibreria Serial a 9600 bps
    Serial.println("Entra el valor del costat en sèrie i el costat en paral·lel del triangle (separats per una coma i en ordre)");
   
 }
@@ -48,7 +48,7 @@ void loop() {
     
     if (Serial.read() == '\n') {            //Mira per un salt del carro, un salt de línia 
 
-      sqrt(pow (costatSerie,2) + pow((costatParalel,2));
+    //  sqrt(pow (costatSerie,2) + pow((costatParalel,2));
 
     
     }
