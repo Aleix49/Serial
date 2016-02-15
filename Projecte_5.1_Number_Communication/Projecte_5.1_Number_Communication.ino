@@ -51,7 +51,7 @@ void loop() {
     hipotenusa = sqrt(pow (costatSerie,2) + pow (costatParalel,2));
     
     Serial.println(hipotenusa);
-    Serial.println ("Torna a introduir un altre valor amb elmateix format anterior")
+    Serial.println ("Si vols calcular-ne una altre, torna a introduir un altre valor amb el mateix format anterior");
     
     }
   }
