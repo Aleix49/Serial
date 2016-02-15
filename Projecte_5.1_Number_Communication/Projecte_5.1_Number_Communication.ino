@@ -13,8 +13,8 @@
 
 //******  Variables  *****************************************************
 
-float costatSerie, costatParalel;     // Variable pels costats
-float hipotenusa;                        // Variable pel resultat
+float costatSerie, costatParalel;            // Variable pels costats
+float hipotenusa;                            // Variable pel resultat
 
 //******  Setup  *********************************************************
 
@@ -23,7 +23,7 @@ float hipotenusa;                        // Variable pel resultat
 
 void setup() {
   
-   Serial.begin(9600);        // Inicialitza la llibreria Serial a 9600 bps
+   Serial.begin(9600);                       // Inicialitza la llibreria Serial a 9600 bps
    Serial.println("Entra el valor del costat en sèrie i el costat en paral·lel del triangle (separats per una coma i en ordre)");
   
 }
@@ -51,6 +51,7 @@ void loop() {
     hipotenusa = sqrt(pow (costatSerie,2) + pow (costatParalel,2));
     
     Serial.println(hipotenusa);
+    Serial.println ("Torna a introduir un altre valor amb elmateix format anterior")
     
     }
   }
