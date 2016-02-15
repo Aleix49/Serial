@@ -47,9 +47,10 @@ void loop() {
     Serial.println(costatParalel);
     
     if (Serial.read() == '\n') {            //Mira per un salt del carro, un salt de línia 
-
-    //  sqrt(pow (costatSerie,2) + pow((costatParalel,2));
-
+      
+    hipotenusa = sqrt(pow (costatSerie,2) + pow (costatParalel,2));
+    
+    Serial.println(hipotenusa);
     
     }
   }
