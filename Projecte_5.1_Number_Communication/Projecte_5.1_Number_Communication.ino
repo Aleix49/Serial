@@ -3,8 +3,8 @@
 **        Serial                                                        **
 **        Projecte 5 Number Comunication                                **
 **        Farem un projecte que calculi la hipotenusa                   **
-**        amb els dos costats de 3 i 4 i calcula                        **                       
-**        l'hipotenusa.                                                 **
+**        amb dos costats introduits per l'usuari (4,5) per exemple     **                       
+**        i et donarà per pantalla el resultat                          **
 **                                                                      **
 *************************************************************************/
 
@@ -54,8 +54,5 @@ void loop() {
     
     }
   }
-
-
-  
-                  
+            
 }
